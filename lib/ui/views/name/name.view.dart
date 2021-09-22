@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:simulador_app/ui/shared/background.dart';
-import 'package:simulador_app/ui/views/name/widgets/rounded_button.dart';
-import 'package:simulador_app/ui/views/name/widgets/text_field_name.dart';
 import 'dart:async';
+import 'package:simulador_app/ui/shared/background.dart';
+import 'package:simulador_app/ui/views/name/widgets/name_widgets.dart';
 import 'package:simulador_app/ui/views/add/add.view.dart';
 
 
