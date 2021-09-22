@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'package:get/get.dart';
+
 import 'package:simulador_app/ui/shared/background.dart';
 import 'package:simulador_app/ui/views/name/widgets/name_widgets.dart';
 import 'package:simulador_app/ui/views/add/add.view.dart';
@@ -53,8 +55,7 @@ class _NameState extends State<Name> {
               RoundedButton(text: 'ENTRAR', press: () async {
                 if( userSnapshot.data!.isNotEmpty ) {
 
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Add()));
+                  Get.toNamed('/Add');
 
                   setState(() {
                     validate = true;

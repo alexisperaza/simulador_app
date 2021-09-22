@@ -6,6 +6,8 @@ import 'package:simulador_app/core/modelos/modelosimulacion.dart';
 import 'package:simulador_app/core/services/simulacion.dart';
 import 'package:simulador_app/ui/views/add/widgets/add_widgets.dart';
 import 'package:simulador_app/ui/views/details/details.view.dart';
+import 'package:get/get.dart';
+
 
 class FormAdd extends StatefulWidget {
   const FormAdd({Key? key}) : super(key: key);

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:simulador_app/ui/views/name/name.view.dart';
+import 'package:get/get.dart';
+
 
 class Splash extends StatefulWidget {
 

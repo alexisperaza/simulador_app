@@ -15,7 +15,7 @@ class Details extends StatefulWidget {
 
   final simulaciones;
 
-  const Details({Key? key, required this.simulaciones}) : super(key: key);
+  const Details({Key? key,  this.simulaciones}) : super(key: key);
 
   @override
   _DetailsState createState() => _DetailsState();

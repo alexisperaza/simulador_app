@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
 
 class AppBarAdd extends StatelessWidget {
   const AppBarAdd({Key? key}) : super(key: key);
@@ -21,7 +23,7 @@ class AppBarAdd extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: size.width*0.07,),
                   child:GestureDetector(
                     onTap: () {
-                      Navigator.pop(context);
+                      Get.back();
                     },
                     child: Icon(Icons.keyboard_arrow_left, size:  size.height/2*0.11,color: Colors.white,),
                   ),),
